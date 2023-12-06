@@ -1,0 +1,6 @@
+1. menu bar
+2. Running text
+3. Sticky menu
+4. Search not displaying
+5. Image black layer background
+6. Image hover black

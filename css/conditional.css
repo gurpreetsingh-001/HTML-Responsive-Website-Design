@@ -1,0 +1,182 @@
+* ================= Desktop/Laptop below 1279px  ================= */
+@media only screen and (max-width:1220px){
+
+}
+/* ================= Desktop/Laptop below 1152px  ================= */
+@media only screen and (max-width:1151px){	
+}
+/* ================= Tablet (Portrait) 768px - 959px ================= */
+@media only screen and (max-width: 991px) {
+
+.row1 {
+	width: 100%;
+	height: 150px;
+}
+.row1left {
+	
+	padding: 10px;
+	width:100%;
+	text-align:center;
+		display:block;
+}
+.row1right{
+	padding: 10px;
+	width:100%;
+	text-align:center;
+		display:block;
+}
+.row2 {
+	width: 87%;
+	margin: 0px auto;
+}
+.row2query {
+	font-size: 20px;
+	font-weight: bold;
+	
+	text-align: center;
+	color: #fff;
+	width:100%;
+}
+.row2submit {
+	
+	width:100%;
+}
+.sel {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	width:80%;
+}
+.sel1 {
+	display: block;
+	margin-top:10px;
+	padding: 0px;
+	width:80%;
+}
+
+.sel1 input
+{width:98%;
+}
+.search {
+	margin-top:10px;
+	padding: 11px 0 0 2px;
+	border-radius:4px;
+	position: relative;
+	background-color: #3A8DED;
+	color: #fff;
+	font-size: 18px;
+	text-align:center;
+	font-family: Open Sans, Segoe UI, Helvetica, sans-serif;
+	width: 80%;
+	display:inline-block;
+	vertical-align:top;
+}
+.trending {
+	width: 100%;
+}
+.trending h2, .categories h2 {
+	font-family: Open Sans, Segoe UI, Helvetica, sans-serif;
+	font-size: 28px;
+	text-align: center;
+	padding-top: 20px;
+	font-weight: 100;
+}
+.trendingrow {
+	width: 85%;
+	margin: 0px auto;
+	margin-top: 20px;
+}
+
+.trendingrowdiv {
+	display: inline-block;
+	margin-left: -5px;
+	width: 40%;
+	vertical-align: top;
+	min-height: 100px;
+	padding: 30px;
+	border: 1px solid #CCC;
+}
+
+
+.categories {
+	margin-top: 20px;
+	width: 100%;
+	padding: 5px 0px 20px 0px;
+	background: #ededed;
+}
+.categoryrow {
+	width: 90%;
+	margin: 0px auto;
+	margin-top: 20px;
+}
+.categoryrowdiv {
+	display: inline-block;
+	margin: 15px;
+	width: 45%;
+	vertical-align: top;
+	min-height: 220px;
+	border: 1px solid #CCC;
+}
+.categoryrowdiv1, .categoryrowdiv2,.categoryrowdiv3,.categoryrowdiv4,.categoryrowdiv5,.categoryrowdiv6,.categoryrowdiv7,.categoryrowdiv8 {
+	display: inline-block;
+	margin: 15px;
+	width: 45%;
+	
+	/*background:rgba(0, 0, 0, 0.11);*/
+	vertical-align: top;
+	min-height: 220px;
+	border: 1px solid #CCC;
+}
+.com {
+	text-align: center;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	background: rgba(0, 0, 0, 0.51);
+	width: 80%;
+	padding: 35px;
+	min-height: 150px;
+	color: #fff;
+	font-family: Open Sans, Segoe UI, Helvetica, sans-serif;
+}
+
+
+/*body{background-color: #ccc}
+.res-menu{display: block;}
+.mega-menu{display: none}
+
+.leftdiv, .rightdiv{width: 100%; display: block;}
+.imagediv{display: none}*/
+
+}
+/* ================= Mobile (Landscape) 480px - 767px ================= */
+@media only screen and (max-width:767px) {
+.trendingrowdiv {
+	display: inline-block;
+	margin-left: -5px;
+	width: 100%;
+	vertical-align: top;
+	min-height: 100px;
+	padding: 30px;
+	border: 1px solid #CCC;
+}
+.com {
+	width:88%;
+}
+.categoryrowdiv1, .categoryrowdiv2,.categoryrowdiv3,.categoryrowdiv4,.categoryrowdiv5,.categoryrowdiv6,.categoryrowdiv7,.categoryrowdiv8 {
+	
+	width: 100%;
+	
+	}
+}
+/* ================= Mobile (Portrait) below 480px  ================= */
+@media only screen and (max-width:479px) {
+
+/*App Development*/
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}

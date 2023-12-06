@@ -1,0 +1,293 @@
+html {
+	font-family: Open Sans, Segoe UI, Helvetica, sans-serif;
+}
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.wrapper {
+	width: 100%;
+	height: 450px;
+	background: url(../image/about2.jpg)top center;
+}
+.row1 {
+	width: 98%;
+	height: 150px;
+}
+.row1left span img {
+	vertical-align: middle;
+	border: 1px solid #fff;
+}
+.row1left {
+	float: left;
+	padding: 10px;
+	width:94%;
+		display:inline-block;
+}
+.row1right {
+	float: right;
+	padding: 10px;
+	color: #fff;
+	cursor: pointer;
+	width:2%;
+	display:inline-block;
+}
+.row1right:hover {
+	text-decoration: underline;
+}
+.row2 {
+	width: 55%;
+	margin: 0px auto;
+}
+.row2query {
+	font-size: 36px;
+	font-weight: 400;
+	text-align: center;
+	color: #fff;
+	width:96%;
+}
+.row2submit {
+	padding: 40px;
+	width:100%;
+}
+.sel {
+	display: inline-block;
+	margin: -2px;
+	padding: 0px;
+	width:25%;
+}
+.sel1 {
+	display: inline-block;
+	margin: -2px;
+	padding: 0px;
+	width:40%;
+}
+.sel select {
+	padding: 0 0 0 10px;
+	height: 50px;
+	position: relative;
+	border-top: 2px solid #ddd;
+	border-bottom: 2px solid #ddd;
+	border-left: 2px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	width: 100%;
+	font-size: 16px;
+	font-family: Open Sans, Segoe UI, Helvetica, sans-serif;
+}
+.sel1 input {
+	padding: 0 0 0 10px;
+	height: 46px;
+	position: relative;
+	border-top: 2px solid #ddd;
+	border-bottom: 2px solid #ddd;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	font-size: 16px;
+	font-family: Open Sans, Segoe UI, Helvetica, sans-serif;
+	width: 100%;
+}
+.search {
+	padding: 11px 0 0 49px;
+    height: 39px;
+	border-top-right-radius:4px;
+	border-bottom-right-radius:4px;
+	position: relative;
+	background-color: #3A8DED;
+	color: #fff;
+	font-size: 18px;
+	font-family: Open Sans, Segoe UI, Helvetica, sans-serif;
+	width: 15%;
+	display:inline-block;
+	vertical-align:top;margin:-2px;
+}
+.trending {
+	width: 100%;
+}
+.trending h2, .categories h2 {
+	font-family: Open Sans, Segoe UI, Helvetica, sans-serif;
+	font-size: 36px;
+	text-align: center;
+	padding-top: 20px;
+	font-weight: 100;
+}
+.trendingrow {
+	width: 69%;
+	margin: 0px auto;
+	margin-top: 20px;
+}
+.trendingrowdiv {
+	display: inline-block;
+	margin-left: -5px;
+	width: 13%;
+	vertical-align: top;
+	min-height: 100px;
+	padding: 30px;
+	border: 1px solid #CCC;
+}
+.icon {
+	text-align: center;
+}
+.con {
+	text-align: center;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-top: 10px;
+	color: #666;
+	font-family: Open Sans, Segoe UI, Helvetica, sans-serif;
+}
+.trendingrowdiv p {
+	text-align: center;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-top: 22px;
+	color: #666;
+	font-family: Open Sans, Segoe UI, Helvetica, sans-serif;
+}
+.trendingrowdiv:hover {
+	background: #F8F8F8;
+	cursor: pointer;
+}
+.categories {
+	margin-top: 20px;
+	width: 100%;
+	padding: 5px 0px 20px 0px;
+	background: #ededed;
+}
+.categoryrow {
+	width: 80%;
+	margin: 0px auto;
+	margin-top: 20px;
+}
+.categoryrowdiv {
+	display: inline-block;
+	margin: 15px;
+	width: 20%;
+	vertical-align: top;
+	min-height: 220px;
+	border: 1px solid #CCC;
+}
+.categoryrowdiv1, .categoryrowdiv2,.categoryrowdiv3,.categoryrowdiv4,.categoryrowdiv5,.categoryrowdiv6,.categoryrowdiv7,.categoryrowdiv8 {
+	display: inline-block;
+	margin: 15px;
+	width: 21%;
+	
+	/*background:rgba(0, 0, 0, 0.11);*/
+	vertical-align: top;
+	min-height: 220px;
+	border: 1px solid #CCC;
+}
+.categoryrowdiv1
+{background-image: url(../image/health_and_wellness.jpg);
+}
+.categoryrowdiv2
+{background-image: url(../image/repair_and_maintenance.jpg);
+}
+.categoryrowdiv3
+{background-image: url(../image/wedding_events.jpg);
+}
+.categoryrowdiv4
+{background-image: url(../image/home_care.jpg);
+}
+.categoryrowdiv5
+{background-image: url(../image/academic_tutor.jpg);
+}
+.categoryrowdiv6
+{background-image: url(../image/hobbies.jpg);
+}
+.categoryrowdiv7
+{background-image: url(../image/personal_services.jpg);
+}
+.categoryrowdiv8
+{background-image: url(../image/business_services.jpg);
+}
+.com {
+	text-align: center;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	background: rgba(0, 0, 0, 0.51);
+	/*width: 156px;*/
+	padding: 35px;
+	min-height: 150px;
+	color: #fff;
+	font-family: Open Sans, Segoe UI, Helvetica, sans-serif;
+}
+.com p {
+	margin-top: 50px;
+}
+.com:hover
+{
+	background:rgba(0, 0, 0, 0.81);
+	cursor:pointer;
+}
+.catservices
+{background:#3A8DED;
+margin:10px auto;
+width:160px;
+
+
+border-radius:3px;
+}
+.catservices p
+{
+	color: #fff;
+	font-size:18px;
+	padding:15px;
+	font-family: Open Sans, Segoe UI, Helvetica, sans-serif;
+}
+.catservices:hover
+{
+	background:red;
+	cursor:pointer;
+}
+
+
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    right: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
